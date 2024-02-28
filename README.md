@@ -15,7 +15,7 @@ ___
 Questo repository contiene il codice sorgente per il nuovo sito [NAO](https://www.galileiisnao.it/) . Il sito è scritto utilizzando [Angular](https://angular.io/), [TypeScript](https://www.typescriptlang.org/) e css.
 
 Il sito permette di interfacciarsi direttamente con il sistema di e-commerce oltre ad avere un aggiornamento in tempo reale delle operazioni del Nao.
-Il l'amministratore ha inoltre una pagina dedicata in cui potrà visualizzare dei dati analitici in real-time.
+L'amministratore ha inoltre una pagina dedicata in cui potrà visualizzare dei dati analitici in real-time.
 
 Il sito ha infine una funzione di manifesto, infatti raccoglie foto di competizioni passate.
 
