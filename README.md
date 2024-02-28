@@ -1,4 +1,4 @@
-<h1 align="center">Galielei Is Nao • <a href="https://www.galileiisnao.it/">Gali's website</a></h1>
+<h1 align="center">Galielei Is Nao • <a href="https://www.galileiisnao.it/" target="_blank">Gali's website</a></h1>
 
 <p align="center">
     <a href="#overview">Overview</a> |
