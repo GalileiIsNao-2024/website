@@ -2,8 +2,7 @@
 
 <p align="center">
     <a href="#overview">Overview</a> |
-    <a href="#development">Development</a> |
-    <a href="#contributors">Contributors</a>
+    <a href="#development">Development</a>
 </p>
 
 <p align="center">  
@@ -12,7 +11,7 @@
 
 ___
 
-## Panoramica
+## Overview
 Questo repository contiene il codice sorgente per il nuovo sito [NAO](https://www.galileiisnao.it/) . Il sito è scritto utilizzando [Angular](https://angular.io/), [TypeScript](https://www.typescriptlang.org/) e css.
 
 Il sito permette di interfacciarsi direttamente con il sistema di e-commerce oltre ad avere un aggiornamento in tempo reale delle operazioni del Nao.
@@ -20,7 +19,7 @@ Il l'amministratore ha inoltre una pagina dedicata in cui potrà visualizzare de
 
 Il sito ha infine una funzione di manifesto, infatti raccoglie foto di competizioni passate.
 
-## Sviluppo
+## Development
 1. **Clona la repository**:
     ```ps
     git clone https://github.com/GalileiIsNao-2024/website.git && cd website
