@@ -1,0 +1,91 @@
+<app-header theme="white"></app-header>
+
+<div class="hero">
+    <div class="hero__content reveal">
+        <p class="intro-text">Gali Project</p>
+        <h1 class="big-text">GalileiIsNao</h1>
+        <a href="mailto:galileisnao21@gmail.com" class="button">Contattaci</a>
+    </div>
+</div>
+
+
+
+<div class="poster mt-3">
+    <div class="poster__img reveal">
+        <img src="../../../../assets/img/team.webp" alt="">
+    </div>
+    <div class="poster__content reveal">
+        <h3 class="big-text">Chi siamo</h3>
+        <p>
+            Siamo quindici ragazzi che frequentano l'<a href="https://www.galileimirandola.edu.it/" target="_blank">Istituto Galileo Galilei di Mirandola</a>: Pietro, Alessia, Thomas, Alice, Andrea, Alessandro, Eleonora, Andrea, Lorenzo, Matteo, Filippo, Giuseppe, Morred, Noemi e Giulia. Grazie al prof. Alberto
+            Michelini abbiamo avuto la possibilità di entrare nel vasto mondo della robotica.</p>
+        <a routerLink="#team" class="button">Team</a>
+    </div>
+</div>
+
+<div class="grid mt-3" id="team">
+    <div class="col reveal">
+        <h3 class="big-text">Nao <br /> Team</h3>
+    </div>
+</div>
+
+<div class="main-carousel">
+    <div class="carousel-cell" *ngFor="let component of components">
+        <a *ngIf="component['link']" href="{{component['link']}}" target="_blank" class="carousel-cell__content" [ngStyle]="{backgroundImage: 'url(../../../../assets/avatars/' + component['image'] + ')', backgroundColor: component['color']}">
+            {{component["name"]}}
+        </a>
+        <div *ngIf="!component['link']" class="carousel-cell__content" [ngStyle]="{backgroundImage: 'url(../../../../assets/avatars/' + component['image'] + ')', backgroundColor: component['color']}">
+            {{component["name"]}}
+        </div>
+    </div>
+</div>
+
+
+<div class="poster mt-3">
+
+    <div class="poster__content reveal">
+        <h3 class="big-text">Le nostre partnership</h3>
+        <p>
+            Il progetto di quest'anno è sponsorizzato dal gruppo Aimag, un'azienda multiultility che si occupa dei
+            servizi primari dei suoi cittadini. <br>Il suo modello ecosostenibile è stato di forte ispirazione per noi.
+        </p>
+        <a href="https://www.vivaimorselli.it/" class="button" target="_blank">Vivai Morselli</a>
+    </div>
+
+    <div class="poster__img  reveal">
+        <img src="../../../../assets/img/parthner.jpg" alt=""> <!-- 1051 x 563 -->
+    </div>
+
+</div>
+
+<div class="panel-blue mt-3" id="projects">
+    <div class="grid">
+        <div class="col panel-blue__dots">
+            <div class="dot zoom"
+                style="background: url(../../../../assets/img/prj-1.jpg) no-repeat center center; background-size: cover;"></div>
+            <div class="dot zoom"
+                style="background: url(../../../../assets/img/prj-2.jpg) no-repeat center center; background-size: cover;"></div>
+            <div class="dot zoom"
+                style="background: url(../../../../assets/img/prj-3.jpg) no-repeat center center; background-size: cover;"></div>
+        </div>
+        <div class="col panel-blue__text">
+            <div class="grid">
+                <div class="col reveal">
+                    <h3 class="big-text tw">Progetti</h3>
+                </div>
+                <div class="col reveal mt-sma-0">
+                    <p class="tw mt-2 text-secondary">
+                        NAO è un robot umanoide che vede e sente grazie a due videocamere,
+                        quattro
+                        microfoni direzionali e due altoparlanti. Inoltre è provvisto di sensori tattili. Per
+                        programmarlo
+                        utilizziamo il software "Choregraphe": un ambiente di programmazione a blocchi.
+                    </p>
+                    <a routerLink="/competitions" class="button">See more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>
